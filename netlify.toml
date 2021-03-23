@@ -1,0 +1,8 @@
+[build]
+
+    base = "client/"
+
+    publish = "dist/"
+    environment = {VUE_APP_API_HOST = "https://quickscience2021.herokuapp.com/"}
+
+    command = "npm run build"
